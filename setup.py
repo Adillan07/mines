@@ -7,7 +7,7 @@ base = None
 if sys.platform == "win32":
     base = "Win32GUI"
 
-executables = [Executable("jogo.py", base=base)]
+executables = [Executable("mines.py", base=base)]
 
 # Dependencies are automatically detected, but it might need fine tuning.
 options = {
