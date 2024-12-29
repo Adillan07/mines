@@ -88,7 +88,7 @@ def reset():
 
 #Criando uma janela
 janela = Tk()
-janela.title("Jogo da Velha")
+janela.title("Mines")
 janela.geometry("410x600+500+100")
 janela.configure(background="#a4a4a4")
 janela.resizable(False, False)
