@@ -4,7 +4,7 @@ from random import choice
 import os
 
 # Função PATH - Obtém o diretório do arquivo Python atual.
-diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+diretorio_atual = os.getcwd()
 
 # A variável "endereco_arquivo" irá armazenar o caminho e o nome do arquivo que será usado ou criado.
 endereco_arquivo = diretorio_atual+"\\pontuacao.txt"
